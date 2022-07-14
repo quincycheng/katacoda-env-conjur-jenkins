@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: acopeland
+Build-Jdk: 1.8.0_231
+Extension-Name: Conjur
+Specification-Title: Plugin to retrieve secrets from CyberArk/Conjur
+Implementation-Title: Conjur
+Implementation-Version: 0.8
+Group-Id: io.jenkins.plugins
+Short-Name: Conjur
+Long-Name: Conjur Secrets Plugin
+Url: https://www.conjur.org
+Plugin-Version: 0.8
+Hudson-Version: 2.32.1
+Jenkins-Version: 2.32.1
+Plugin-Dependencies: cloudbees-folder:6.0.3,credentials-binding:1.16,c
+ redentials:2.1.18
+Plugin-Developers: 
+

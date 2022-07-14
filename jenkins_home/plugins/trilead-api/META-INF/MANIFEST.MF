@@ -1,22 +1,22 @@
 Manifest-Version: 1.0
-Archiver-Version: Plexus Archiver
-Created-By: Apache Maven
-Built-By: inifc
-Build-Jdk: 11.0.7
-Extension-Name: trilead-api
-Specification-Title: This plugin provides access to Trilead without ha
- ving to bundle Trilead in Jenkins core
-Implementation-Title: trilead-api
-Implementation-Version: 1.0.10
-Group-Id: org.jenkins-ci.plugins
-Short-Name: trilead-api
+Hudson-Version: 2.319
+Implementation-Title: Trilead API Plugin
 Long-Name: Trilead API Plugin
-Url: https://github.com/jenkinsci/trilead-api-plugin
+Implementation-Version: 1.57.v6e90e07157e1
+Group-Id: org.jenkins-ci.plugins
 Minimum-Java-Version: 1.8
-Plugin-Version: 1.0.10
-Hudson-Version: 2.184
-Jenkins-Version: 2.184
+Support-Dynamic-Loading: true
+Plugin-License-Name: The MIT license
+Specification-Title: Trilead API Plugin
+Plugin-ScmUrl: https://github.com/jenkinsci/trilead-api-plugin
+Plugin-Version: 1.57.v6e90e07157e1
+Jenkins-Version: 2.319
+Url: https://github.com/jenkinsci/trilead-api-plugin
+Short-Name: trilead-api
+Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-Developers: Michael Clarke:mc1arke:michael.m.clarke@gmail.com,I
  van Fernandez:kuisathaverat:kuisathaverat@gmail.com
-Support-Dynamic-Loading: true
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+Specification-Version: 0.0
 

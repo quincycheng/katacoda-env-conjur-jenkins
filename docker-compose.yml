@@ -33,15 +33,13 @@ services:
       - 50000:50000
     container_name: jenkins
     volumes:
-      - /root/katacoda-env-conjur-jenkins/jenkins_home:/var/jenkins_home
+      - ./jenkins_home:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
       - /usr/local/bin/docker:/usr/local/bin/docker
 
 
   http-auth-server:
-    image: http-auth-server:1.0
-    build:
-      context: /root/katacoda-env-conjur-jenkins/http-auth-server/
+    image: quincycheng/http-authn-server:latest
     ports:
      - 8082:80
     container_name: http-auth-server

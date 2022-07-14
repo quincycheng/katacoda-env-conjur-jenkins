@@ -2,18 +2,18 @@ Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: Apache Maven
 Built-By: aytunc
-Build-Jdk: 1.8.0_222
+Build-Jdk: 1.8.0_252
 Extension-Name: purge-job-history
 Specification-Title: This plugin allows you quickly delete the build h
  istory of a job.
 Implementation-Title: purge-job-history
-Implementation-Version: 1.4
+Implementation-Version: 1.6
 Group-Id: org.jenkins-ci.plugins
 Short-Name: purge-job-history
 Long-Name: Purge Job History Plugin
 Url: https://github.com/jenkinsci/purge-job-history-plugin
 Minimum-Java-Version: 1.8
-Plugin-Version: 1.4
+Plugin-Version: 1.6
 Hudson-Version: 2.176.1
 Jenkins-Version: 2.176.1
 Plugin-Dependencies: workflow-aggregator:2.6,workflow-api:2.29,workflo
