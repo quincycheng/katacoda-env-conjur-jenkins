@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Edward.Nunez
+Build-Jdk: 11.0.7
+Extension-Name: conjur-credentials
+Specification-Title: Plugin to retrieve secrets from CyberArk/Conjur
+Implementation-Title: conjur-credentials
+Implementation-Version: 1.0.12
+Group-Id: org.conjur.jenkins
+Short-Name: conjur-credentials
+Long-Name: Conjur Secrets Plugin
+Url: https://github.com/jenkinsci/conjur-credentials-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.0.12
+Hudson-Version: 2.176.1
+Jenkins-Version: 2.176.1
+Plugin-Dependencies: cloudbees-folder:6.12,credentials-binding:1.21,cr
+ edentials:2.3.5,jackson2-api:2.11.0
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/conjur-credentials-plugin
+
