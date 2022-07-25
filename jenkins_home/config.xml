@@ -43,7 +43,7 @@
     <checkSameSource>false</checkSameSource>
     <checkOnlyLocalPath>false</checkOnlyLocalPath>
     <checkSessionMatch>false</checkSessionMatch>
-    <xorMasking>true</xorMasking>
+    <xorMasking>false</xorMasking>
     <hoursValid>2</hoursValid>
   </crumbIssuer>
   <nodeProperties/>
