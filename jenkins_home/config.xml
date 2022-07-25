@@ -38,8 +38,13 @@
   <primaryView>all</primaryView>
   <slaveAgentPort>50000</slaveAgentPort>
   <label></label>
-  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
-    <excludeClientIPFromCrumb>true</excludeClientIPFromCrumb>
+  <crumbIssuer class="org.jenkinsci.plugins.strictcrumbissuer.StrictCrumbIssuer" plugin="strict-crumb-issuer@2.1.0">
+    <checkClientIP>false</checkClientIP>
+    <checkSameSource>false</checkSameSource>
+    <checkOnlyLocalPath>false</checkOnlyLocalPath>
+    <checkSessionMatch>false</checkSessionMatch>
+    <xorMasking>true</xorMasking>
+    <hoursValid>2</hoursValid>
   </crumbIssuer>
   <nodeProperties/>
   <globalNodeProperties/>
