@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins.workflow</groupId>
   <artifactId>workflow-cps</artifactId>
-  <version>2746.v0da_83a_332669</version>
+  <version>2759.v87459c4eea_ca_</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Groovy</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -42,7 +42,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/workflow-cps-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/workflow-cps-plugin.git</developerConnection>
-    <tag>0da83a3326695e0544524894607260195319aa0e</tag>
+    <tag>87459c4eeaca402b1db387da9b5c0b40542e7b61</tag>
     <url>https://github.com/jenkinsci/workflow-cps-plugin</url>
   </scm>
   <distributionManagement>
@@ -59,19 +59,19 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>625.vd896b_f445a_f8</version>
+      <version>639.v6eca_cd8c04a_a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-api</artifactId>
-      <version>1162.va_1e49062a_00e</version>
+      <version>1182.v41475e53ea_43</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-support</artifactId>
-      <version>819.v37d707a_71d9b_</version>
+      <version>820.vd1a_6cc65ef33</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -83,7 +83,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>script-security</artifactId>
-      <version>1172.v35f6a_0b_8207e</version>
+      <version>1175.v4b_d517d6db_f0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -101,7 +101,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>support-core</artifactId>
-      <version>1172.va_1fcf85806d0</version>
+      <version>1174.vc46f6b_04d894</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
@@ -201,7 +201,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.27</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

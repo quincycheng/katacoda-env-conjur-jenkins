@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>scm-api</artifactId>
-  <version>608.vfa_f971c5a_a_e9</version>
+  <version>616.ve67136f6c77d</version>
   <packaging>hpi</packaging>
   <name>SCM API Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -43,7 +43,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/scm-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/scm-api-plugin.git</developerConnection>
-    <tag>faf971c5aae9cd0c356ebef3095a07e15da59747</tag>
+    <tag>e67136f6c77d87e6348f110100c0767d627a77b9</tag>
     <url>https://github.com/jenkinsci/scm-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -60,13 +60,13 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>308.v852b473a2b8c</version>
+      <version>318.va_f3ccb_729b_71</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.289.1</version>
+      <version>2.319.3</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -113,7 +113,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.26</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

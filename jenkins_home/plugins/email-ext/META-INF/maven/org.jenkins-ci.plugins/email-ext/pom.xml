@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>email-ext</artifactId>
-  <version>2.89</version>
+  <version>2.91</version>
   <packaging>hpi</packaging>
   <name>Email Extension Plugin</name>
   <description>Allows to configure every aspect of email notifications: when an email is sent, who should receive it and what the email says</description>
@@ -75,7 +75,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/email-ext-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/email-ext-plugin.git</developerConnection>
-    <tag>email-ext-2.89</tag>
+    <tag>email-ext-2.91</tag>
     <url>https://github.com/jenkinsci/email-ext-plugin</url>
   </scm>
   <issueManagement>
@@ -96,7 +96,7 @@
     <dependency>
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
-      <version>1.15.1</version>
+      <version>1.15.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -114,19 +114,19 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>junit</artifactId>
-      <version>1.54</version>
+      <version>1119.1121.vc43d0fc45561</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>matrix-project</artifactId>
-      <version>771.v574584b_39e60</version>
+      <version>772.v494f19991984</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>mailer</artifactId>
-      <version>414.vcc4c33714601</version>
+      <version>435.v79ef3972b_5c7</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -151,7 +151,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>2.6.1.1</version>
+      <version>1087.1089.v2f1b_9a_b_040e4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -170,26 +170,26 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-job</artifactId>
-      <version>1145.v7f2433caa07f</version>
+      <version>1189.va_d37a_e9e4eda_</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>script-security</artifactId>
-      <version>1138.v8e727069a_025</version>
+      <version>1175.v4b_d517d6db_f0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
-      <artifactId>javax-mail-api</artifactId>
-      <version>1.6.2-6</version>
+      <artifactId>jakarta-mail-api</artifactId>
+      <version>2.0.0-6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.303.3</version>
+      <version>2.332.1</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -236,7 +236,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.27</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

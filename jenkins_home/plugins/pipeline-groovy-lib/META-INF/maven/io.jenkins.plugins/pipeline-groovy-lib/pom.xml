@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>pipeline-groovy-lib</artifactId>
-  <version>593.va_a_fc25d520e9</version>
+  <version>598.vcd66b_a_336510</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Groovy Libraries</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -42,7 +42,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/pipeline-groovy-lib-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-groovy-lib-plugin.git</developerConnection>
-    <tag>aafc25d520e96733e3cfa4b46d1bfdcd015a350e</tag>
+    <tag>cd66ba33651065ef729f2decd16f37f83daa470a</tag>
     <url>https://github.com/jenkinsci/pipeline-groovy-lib-plugin</url>
   </scm>
   <distributionManagement>
@@ -65,49 +65,49 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-api</artifactId>
-      <version>2.47</version>
+      <version>1153.vb_912c0e47fb_a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-scm-step</artifactId>
-      <version>2.13</version>
+      <version>400.v6b_89a_1317c9a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>1.23</version>
+      <version>318.va_f3ccb_729b_71</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-cps</artifactId>
-      <version>2.94</version>
+      <version>2660.vb_c0412dc4e6d</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>2.24</version>
+      <version>625.vd896b_f445a_f8</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>scm-api</artifactId>
-      <version>2.6.5</version>
+      <version>608.vfa_f971c5a_a_e9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>cloudbees-folder</artifactId>
-      <version>6.16</version>
+      <version>6.722.v8165b_a_cf25e9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>script-security</artifactId>
-      <version>1.78</version>
+      <version>1138.v8e727069a_025</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -119,21 +119,21 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-multibranch</artifactId>
-      <version>2.26</version>
+      <version>716.vc692a_e52371b_</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>branch-api</artifactId>
-      <version>2.7.0</version>
+      <version>2.1046.v0ca_37783ecc5</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.289.1</version>
+      <version>2.289.3</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
