@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>ssh-credentials</artifactId>
-  <version>291.v8211e4f8efb_c</version>
+  <version>295.vced876c18eb_4</version>
   <packaging>hpi</packaging>
   <name>SSH Credentials Plugin</name>
   <description>Allows storage of SSH credentials in Jenkins</description>
@@ -56,7 +56,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/ssh-credentials-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/ssh-credentials-plugin.git</developerConnection>
-    <tag>8211e4f8efbc5961a40431828150d95666045ccd</tag>
+    <tag>ced876c18eb474dbd45ec51a6590630b3cbf3a47</tag>
     <url>https://github.com/jenkinsci/ssh-credentials-plugin</url>
   </scm>
   <distributionManagement>
@@ -80,13 +80,13 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>trilead-api</artifactId>
-      <version>1.57.v6e90e07157e1</version>
+      <version>1.67.vc3938a_35172f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>1129.vef26f5df883c</version>
+      <version>1139.veb_9579fca_33b_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

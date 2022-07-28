@@ -1,21 +1,14 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.14">
+<com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.736.v5f554b_b_a_52b_3">
   <actions/>
   <properties>
     <com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
         <entry>
-          <com.cloudbees.plugins.credentials.domains.Domain plugin="credentials@2.3.13">
+          <com.cloudbees.plugins.credentials.domains.Domain plugin="credentials@1139.veb_9579fca_33b_">
             <specifications/>
           </com.cloudbees.plugins.credentials.domains.Domain>
-          <java.util.concurrent.CopyOnWriteArrayList>
-            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@2.3.13">
-              <id>theServerAccount</id>
-              <description></description>
-              <username>theServerAccount</username>
-              <password>{AQAAABAAAAAghdw+mjU/g4IVqL5k55JgkzxwnGioLZ9PTfkEHQ1/cgeEBobE9tkBf9+fOH1DB/C7}</password>
-            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
-          </java.util.concurrent.CopyOnWriteArrayList>
+          <java.util.concurrent.CopyOnWriteArrayList/>
         </entry>
       </domainCredentialsMap>
     </com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
